@@ -1,3 +1,9 @@
+.Home {
+  padding: 2em;
+  background: rebeccapurple;
+  color: whitesmoke;
+}
+
 .Nav {
   background: #333;
   color: white;
