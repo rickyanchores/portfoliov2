@@ -2,4 +2,49 @@
     background: #333;
     color: white;
     padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    .hamburger{
+      display: none;
+      .line{
+        width: 20px;
+        height: 3px;
+        margin: 3px;
+        background: whitesmoke;
+      }
+    }
+    .navlinks{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 40%;
+      list-style: none;
+      a{
+        color: whitesmoke;
+        text-decoration: none;
+      }
+    }
+  }
+
+
+  @media(max-width: 700px){
+    .Nav{
+      
+      .hamburger{
+      display: block;  
+      }
+      .navlinks{
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        li{
+          padding: 1em;
+        }
+      }
+      .navActive{
+        display: flex;
+      }
+    }
   }

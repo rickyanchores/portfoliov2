@@ -6,6 +6,8 @@ import './App.css';
 import Nav from './components/Nav/Nav';
 import Home from './components/Home/Home';
 import Cards from './components/Cards/Cards';
+import Projects from './components/Projects/Projects';
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <Nav />
       <Home />
       <Cards />
+      <Projects />
     </div>
   );
 }

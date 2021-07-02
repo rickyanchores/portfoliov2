@@ -14,9 +14,9 @@ const Cards = (props) => {
     return (
         <div className="Cards">
             <h1>Cards section</h1>
-            <Card me={name[0]} text={text} image={image[0]}/>
-            <Card me={name[1]} text={text} image={image[1]}/>
-            <Card me={name[2]} text={text} image={image[2]}/>
+            <Card name={name[0]} text={text} image={image[0]}/>
+            <Card name={name[1]} text={text} image={image[1]}/>
+            <Card name={name[2]} text={text} image={image[2]}/>
         </div>
     )
 }
