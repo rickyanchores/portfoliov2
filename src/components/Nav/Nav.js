@@ -7,7 +7,7 @@ const Nav = () => {
 
     return (
         <div className="Nav">
-            <div className="Logo"><h3>Logo</h3></div>
+            <div className="Logo"><h3>Ricky A</h3></div>
             <div className="hamburger">
                 <div className="line"></div>
                 <div className="line"></div>
