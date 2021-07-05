@@ -10,17 +10,20 @@ import Projects from './components/Projects/Projects';
 import About from './components/About/About';
 import Contacts from './components/Contacts/Contacts';
 import Footer from './components/Footer/Footer';
+import Test from './components/TEST/Test';
+
 
 function App() {
   return (
     <div className="App">
-      <Nav />
+      <Nav />  
       <Home />
       <Cards />
       <Projects />
       <About />
       <Contacts />
       <Footer />
+      <Test />
     </div>
   );
 }
