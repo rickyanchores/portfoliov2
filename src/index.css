@@ -224,5 +224,8 @@ img {
 .Test {
   background: rebeccapurple;
   color: whitesmoke;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 20px;
 }
 /*# sourceMappingURL=index.css.map */
