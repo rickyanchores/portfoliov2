@@ -200,6 +200,21 @@
   }
 }
 
+.About {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.About .about-image {
+  width: 50%;
+}
+
 .Footer {
   background: #333;
   color: whitesmoke;
