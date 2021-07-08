@@ -215,6 +215,14 @@
   width: 50%;
 }
 
+.About .about-text {
+  background: #333;
+  color: whitesmoke;
+  padding: 5em;
+  margin: 1em;
+  border-radius: 20px;
+}
+
 .Footer {
   background: #333;
   color: whitesmoke;

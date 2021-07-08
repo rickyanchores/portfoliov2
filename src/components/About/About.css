@@ -12,4 +12,12 @@
 .About .about-image {
   width: 50%;
 }
+
+.About .about-text {
+  background: #333;
+  color: whitesmoke;
+  padding: 5em;
+  margin: 1em;
+  border-radius: 20px;
+}
 /*# sourceMappingURL=About.css.map */
