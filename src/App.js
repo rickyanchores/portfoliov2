@@ -11,7 +11,7 @@ import About from './components/About/About';
 import Contacts from './components/Contacts/Contacts';
 import Footer from './components/Footer/Footer';
 import Test from './components/TEST/Test';
-
+import Test2 from './components/TEST/Test2';
 
 function App() {
   return (
@@ -24,6 +24,7 @@ function App() {
       <Contacts />
       <Footer />
       <Test />
+      <Test2 />
     </div>
   );
 }
