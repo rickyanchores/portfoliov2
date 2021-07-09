@@ -251,4 +251,12 @@ img {
   padding: 1em;
   border-radius: 20px;
 }
+
+.Test2 {
+  padding: 3em;
+  background: teal;
+  color: whitesmoke;
+  margin: 1em;
+  border-radius: 2em;
+}
 /*# sourceMappingURL=index.css.map */
