@@ -1,6 +1,11 @@
 import React from 'react'
 
 const Home = () => {
+
+    const handleClick = () => {
+        console.log("Hey")
+    }
+
     return (
         <div className="Home">
             <div className="hero-img">
