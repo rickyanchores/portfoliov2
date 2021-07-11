@@ -10,6 +10,7 @@ const Home = () => {
                 <h3>I am Ricky Anchores</h3>
                 <h5>Front End Developer</h5>
                 <p>Create and Develop modern and minimalist websites</p>
+                <button onClick={handleClick}>Check my projects</button>
             </div>
         </div>
     )
