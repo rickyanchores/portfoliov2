@@ -5,6 +5,11 @@ const Contacts = () => {
         <div className="Contacts">
             <h1>Contacts</h1>
             <h3>Social Media List</h3>
+            <ul>
+                <li>Gmail</li>
+                <li>Instagram</li>
+                <li>Facebook</li>
+            </ul>
         </div>
     )
 }

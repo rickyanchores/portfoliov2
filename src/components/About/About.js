@@ -15,7 +15,8 @@ const About = () => {
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JAVASCRIPT</li>
-                    <li>SASS</li>
+                    <li>LIVE SASS</li>
+                    <li>BOOTSTRAP</li>
                     <li>REACT JS</li>
                 </ul>
             </div>
@@ -23,4 +24,4 @@ const About = () => {
     )
 }
 
-export default About
+export default About;
