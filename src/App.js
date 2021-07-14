@@ -12,6 +12,7 @@ import Contacts from './components/Contacts/Contacts';
 import Footer from './components/Footer/Footer';
 import Test from './components/TEST/Test';
 import Test2 from './components/TEST/Test2';
+import Gallery from './components/Gallery/Gallery';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Nav />  
       <Home />
       <Cards />
+      <Gallery />
       <Projects />
       <About />
       <Contacts />
