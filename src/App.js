@@ -27,6 +27,7 @@ function App() {
       <Footer />
       <Test />
       <Test2 />
+      <Gallery />
     </div>
   );
 }
