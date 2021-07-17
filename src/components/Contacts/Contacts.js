@@ -7,6 +7,7 @@ const Contacts = () => {
             <h3>Social Media List</h3>
             <ul>
                 <li>Gmail</li>
+                <li>Github</li>
                 <li>Instagram</li>
                 <li>Facebook</li>
             </ul>
