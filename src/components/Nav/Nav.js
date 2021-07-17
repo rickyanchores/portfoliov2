@@ -3,6 +3,15 @@ import React from 'react'
 const Nav = () => {
 
     
+    /*
+    let hamburger = document.querySelector('.hamburger');
+    let navlinks = document.querySelector('.navlinks')
+
+    hamburger.addEventListener('click',() => {
+        navlinks.classList.toggle('navActive');
+    })
+    */
+    
 
 
     return (
