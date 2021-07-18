@@ -44,8 +44,8 @@
 }
 
 .Nav {
-  background: #333;
-  color: white;
+  background: black;
+  color: whitesmoke;
   padding: 1em;
   display: -webkit-box;
   display: -ms-flexbox;
