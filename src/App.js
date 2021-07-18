@@ -13,17 +13,19 @@ import Footer from './components/Footer/Footer';
 import Test from './components/TEST/Test';
 import Test2 from './components/TEST/Test2';
 import Gallery from './components/Gallery/Gallery';
+import Socialmedia from './components/Socialmedia/Socialmedia';
 
 function App() {
   return (
     <div className="App">
       <Nav />  
       <Home />
+      <Socialmedia />
+      <About />
+      <Projects />
+      <Contacts />
       <Cards />
       <Gallery />
-      <Projects />
-      <About />
-      <Contacts />
       <Footer />
       <Test />
       <Test2 />

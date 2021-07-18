@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <div className="Home">
             <div className="hero-img">
-                <img src="https://scontent.fltn2-1.fna.fbcdn.net/v/t1.6435-9/96103463_10217035850792739_5320817155158048768_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=174925&_nc_ohc=6wwJ3QfVp6gAX86HKV3&_nc_ht=scontent.fltn2-1.fna&oh=9d181f2e23ddb61317d30dd533b6ce87&oe=60E719C2" alt="" />
+                <img src="https://scontent.fltn2-1.fna.fbcdn.net/v/t31.18172-8/22254883_10210293340394193_3205600766020573504_o.jpg?_nc_cat=100&ccb=1-3&_nc_sid=174925&_nc_ohc=nV7vvI2KnlcAX_uYKNX&_nc_ht=scontent.fltn2-1.fna&oh=50d76de8c87bc1599d2b6a5e35f7e1cb&oe=60F8EC4A" alt="me" />
             </div>
             <div className="hero-title">
                 <h3>I am Ricky Anchores</h3>
