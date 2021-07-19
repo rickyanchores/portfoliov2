@@ -1,0 +1,28 @@
+.Socialmedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Socialmedia .SocialmediaIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: black;
+  color: white;
+  width: 150px;
+  height: 100px;
+  margin: 1em;
+}
+/*# sourceMappingURL=Socialmedia.css.map */
