@@ -9,7 +9,8 @@ const About = () => {
             <img className="about-image" src={image} alt=""/>
             <div className="about-text">
                 <h1>About</h1>
-                <p>This is ABOUT ME section</p>
+                <p>I'm Ricky, a Front End Developer based in London,UK
+Web Dev and Design. Well organised person, problem solver, independent employee with high attention to detail. Music and Art passionate</p>
                 <h3>Insert Here List of your Tech Stack:</h3>
                 <ul>
                     <li>HTML</li>
@@ -17,6 +18,7 @@ const About = () => {
                     <li>JAVASCRIPT</li>
                     <li>LIVE SASS</li>
                     <li>BOOTSTRAP</li>
+                    <li>FIGMA</li>
                     <li>REACT JS</li>
                 </ul>
             </div>

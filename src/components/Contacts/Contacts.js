@@ -3,7 +3,7 @@ import React from 'react'
 const Contacts = () => {
     return (
         <div className="Contacts">
-            <h1>Contacts</h1>
+            <h1>Ricky A</h1>
             <h3>Social Media List</h3>
             <ul>
                 <li>Gmail</li>
