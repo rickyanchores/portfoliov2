@@ -24,12 +24,11 @@ function App() {
       <About />
       <Projects />
       <Contacts />
-      <Cards />
-      <Gallery />
       <Footer />
       <Test />
       <Test2 />
       <Gallery />
+      <Cards />
     </div>
   );
 }
