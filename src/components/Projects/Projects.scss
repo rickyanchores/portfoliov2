@@ -5,7 +5,7 @@
     align-items: center;
     .Project{
         img{
-            width: 100%;
+            width: 500px;
         }
         margin: 1em;
     }
@@ -14,5 +14,11 @@
 @media(max-width: 700px){
     .Projects{
         flex-direction: column;
+        .title{
+            width: 100%;
+        }
+        .Project{
+            margin: 1em;
+        }
     }
 }

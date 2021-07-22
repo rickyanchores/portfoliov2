@@ -21,7 +21,7 @@ const Projects = (props) => {
     //
     return (
         <div className="Projects">
-            <h1>Projects</h1>
+            <h1 className="title">Projects</h1>
             <Project name={item[0].name} image={item[0].image} />
             <Project name={item[1].name} image={item[1].image} />
             <Project name={item[2].name} image={item[2].image} />
