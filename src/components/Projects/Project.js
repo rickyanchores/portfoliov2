@@ -1,6 +1,18 @@
 import React from 'react'
 
+
+
+
 const Project = (props) => {
+
+    /*
+    const projOne = [
+        {
+            image: 'src/images/kahoii.jpg'
+        }
+    ]
+    */
+
     return (
         <div className="Project">
             <img src={props.image} />
