@@ -1,4 +1,6 @@
-import React from 'react'
+import {React, useState} from 'react'
+
+
 
 const Nav = () => {
 
@@ -11,12 +13,18 @@ const Nav = () => {
         navlinks.classList.toggle('navActive');
     })
     */
-    
+    const [logo,setLogo] = useState('Ricky A');
+
+
+    const handleClick = () => {
+        //insert here event onClick
+        setLogo('RA');
+    }
 
 
     return (
         <div className="Nav">
-            <div className="Logo"><h3>Ricky A</h3></div>
+            <div className="logo" onClick={ handleClick }><h3>{ logo }</h3></div>
             <div className="hamburger">
                 <div className="line"></div>
                 <div className="line"></div>
