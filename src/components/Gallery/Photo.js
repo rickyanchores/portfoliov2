@@ -1,5 +1,7 @@
 import React from 'react'
 
+
+
 const Photo = (props) => {
     return (
         <div className="Photo">

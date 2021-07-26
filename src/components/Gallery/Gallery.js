@@ -2,6 +2,7 @@ import React from 'react'
 import Photo from './Photo'
 
 
+
 const Gallery = (props) => {
 
     const photoOne = {
@@ -20,7 +21,7 @@ const Gallery = (props) => {
     return (
         <div className="Gallery">
             <h1>Gallery</h1>
-            <Photo name={photoOne.name} text={photoOne.text}/>
+            <Photo name={photoOne.name} text={photoOne.text} myImage={photoOne}/>
             <Photo name={photoTwo.name} text={photoTwo.text}/>
             <Photo name={photoThree.name} text={photoThree.text}/>
         </div>
