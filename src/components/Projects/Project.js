@@ -13,7 +13,11 @@ const Project = (props) => {
         <div className="Project">
             <img src={props.image} />
             <h1>{props.name}</h1>
-            <button onClick={ handleClick }><h3>CODE</h3></button>
+            <div className="buttons">
+                <button onClick={ handleClick }><p>CODE</p></button>
+                <button onClick={ handleClick }><p>LIVE</p></button>
+            </div>
+           
         </div>
     )
 }
