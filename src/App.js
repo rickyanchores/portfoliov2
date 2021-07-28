@@ -1,5 +1,7 @@
 
 import './App.css';
+//IMPORT REACT ROUTER DOM
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
 // IMPORTS COMPONENTS
@@ -18,17 +20,19 @@ import Socialmedia from './components/Socialmedia/Socialmedia';
 function App() {
   return (
     <div className="App">
-      <Nav />  
-      <Home />
-      <Socialmedia />
-      <About />
-      <Projects />
-      <Contacts />
-      <Footer />
-      <Test />
-      <Test2 />
-      <Gallery />
-      <Cards />
+      <Router>
+        <Nav />  
+        <Home />
+        <Socialmedia />
+        <About />
+        <Projects />
+        <Contacts />
+        <Footer />
+        <Test />
+        <Test2 />
+        <Gallery />
+        <Cards />
+        </Router>
     </div>
   );
 }
