@@ -32,7 +32,7 @@ function App() {
         <Test2 />
         <Gallery />
         <Cards />
-        </Router>
+      </Router>
     </div>
   );
 }

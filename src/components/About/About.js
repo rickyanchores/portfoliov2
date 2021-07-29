@@ -1,12 +1,13 @@
 import React from 'react'
+import meSelf from '../../images/me-back.jpg'
+
 
 const About = () => {
 
-    const image = 'https://images.unsplash.com/photo-1625320014712-cc333e4e93a5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80';
-
+    
     return (
         <div className="About">
-            <img className="about-image" src={image} alt=""/>
+            <img className="about-image" src={meSelf} alt=""/>
             <div className="about-text">
                 <h1>About</h1>
                 <p>I'm Ricky, a Front End Developer based in London,UK
