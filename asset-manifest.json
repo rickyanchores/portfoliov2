@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfoliov2/static/css/main.db0c0743.chunk.css",
-    "main.js": "/portfoliov2/static/js/main.acaaee11.chunk.js",
-    "main.js.map": "/portfoliov2/static/js/main.acaaee11.chunk.js.map",
+    "main.js": "/portfoliov2/static/js/main.e6216257.chunk.js",
+    "main.js.map": "/portfoliov2/static/js/main.e6216257.chunk.js.map",
     "runtime-main.js": "/portfoliov2/static/js/runtime-main.10b11c49.js",
     "runtime-main.js.map": "/portfoliov2/static/js/runtime-main.10b11c49.js.map",
     "static/js/2.d4a4c7d6.chunk.js": "/portfoliov2/static/js/2.d4a4c7d6.chunk.js",
@@ -12,6 +12,7 @@
     "static/js/2.d4a4c7d6.chunk.js.LICENSE.txt": "/portfoliov2/static/js/2.d4a4c7d6.chunk.js.LICENSE.txt",
     "static/media/Citypx.da061d51.jpg": "/portfoliov2/static/media/Citypx.da061d51.jpg",
     "static/media/kahoii.cd76379d.jpg": "/portfoliov2/static/media/kahoii.cd76379d.jpg",
+    "static/media/me-back.ddf4cec7.jpg": "/portfoliov2/static/media/me-back.ddf4cec7.jpg",
     "static/media/rickolor.9c0cc949.jpg": "/portfoliov2/static/media/rickolor.9c0cc949.jpg",
     "static/media/todoApp.63fb48c1.jpg": "/portfoliov2/static/media/todoApp.63fb48c1.jpg",
     "static/media/zenkana.daebfa37.jpg": "/portfoliov2/static/media/zenkana.daebfa37.jpg"
@@ -20,6 +21,6 @@
     "static/js/runtime-main.10b11c49.js",
     "static/js/2.d4a4c7d6.chunk.js",
     "static/css/main.db0c0743.chunk.css",
-    "static/js/main.acaaee11.chunk.js"
+    "static/js/main.e6216257.chunk.js"
   ]
 }
