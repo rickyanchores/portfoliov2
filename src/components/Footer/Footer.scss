@@ -2,4 +2,12 @@
     background: black;
     color: whitesmoke;
     padding: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .f-media{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
