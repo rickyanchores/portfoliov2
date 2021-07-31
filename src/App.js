@@ -28,10 +28,6 @@ function App() {
         <Projects />
         <Contacts />
         <Footer />
-        <Test />
-        <Test2 />
-        <Gallery />
-        <Cards />
       </Router>
     </div>
   );
