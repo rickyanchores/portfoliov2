@@ -47,6 +47,8 @@
   background: black;
   color: whitesmoke;
   padding: 1em;
+  position: fixed;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

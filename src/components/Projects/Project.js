@@ -6,7 +6,7 @@ import React from 'react'
 const Project = (props) => {
 
     const handleClick = () => {
-        console.log('CLICKED')
+        //
     }
 
     return (
