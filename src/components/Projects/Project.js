@@ -17,7 +17,6 @@ const Project = (props) => {
                 <button onClick={ handleClick }><p>CODE</p></button>
                 <button onClick={ handleClick }><p>LIVE</p></button>
             </div>
-           
         </div>
     )
 }
