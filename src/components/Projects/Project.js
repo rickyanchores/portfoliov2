@@ -17,7 +17,9 @@ const Project = (props) => {
                 <button>
                     <Link to={props.link} target="_blank">LIVE</Link>
                 </button>
-                <button onClick={ handleClick }><p>LIVE</p></button>
+                <button>
+                    <Link to={props.code}>CODE</Link>
+                </button>
             </div>
         </div>
     )
