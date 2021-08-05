@@ -1,5 +1,5 @@
 import {React, useState} from 'react'
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 
 const Nav = () => {
@@ -32,16 +32,16 @@ const Nav = () => {
             </div>
             <ul className="navlinks">
                 <li>
-                    <Link to="">Home</Link>
+                    <NavLink to="">Home</NavLink>
                 </li>
                 <li>
-                    <Link to="">Projects</Link>
+                    <NavLink to="">Projects</NavLink>
                 </li>
                 <li>
-                    <Link to="">About</Link>
+                    <NavLink to="">About</NavLink>
                 </li>
                 <li>
-                    <Link to="">Contact</Link>
+                    <NavLink to="">Contact</NavLink>
                 </li>
             </ul>
         </div>
