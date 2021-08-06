@@ -1,13 +1,20 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
         <div className="Footer">
             <h1>Created by Ricky A</h1>
             <ul className="f-media">
-                <li><i><h3>Github</h3></i></li>
-                <li><i><h3>Instagram</h3></i></li>
-                <li><i><h3>Gmail</h3></i></li>
+                <Link to="" className="link">
+                    Gmail
+                </Link>
+                <Link to="" className="link">
+                    Instagram
+                </Link>
+                <Link to="" className="link">
+                    Github
+                </Link>
             </ul>
         </div>
     )

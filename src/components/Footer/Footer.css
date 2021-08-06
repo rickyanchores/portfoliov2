@@ -24,4 +24,10 @@
   width: 40%;
   list-style: none;
 }
+
+.Footer .f-media .link {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 1.5em;
+}
 /*# sourceMappingURL=Footer.css.map */

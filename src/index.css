@@ -286,6 +286,12 @@
   list-style: none;
 }
 
+.Footer .f-media .link {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
 .Gallery {
   background: black;
   color: whitesmoke;
