@@ -15,10 +15,10 @@ const Project = (props) => {
             <h1>{props.name}</h1>
             <div className="buttons">
                 <button>
-                    <Link to={props.link} target="_blank">LIVE</Link>
+                    <Link className="link" to={props.link} target="_blank">LIVE</Link>
                 </button>
                 <button>
-                    <Link to={props.code}>CODE</Link>
+                    <Link className="link" to={props.code}>CODE</Link>
                 </button>
             </div>
         </div>
