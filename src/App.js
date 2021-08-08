@@ -16,6 +16,7 @@ import Test from './components/TEST/Test';
 import Test2 from './components/TEST/Test2';
 import Gallery from './components/Gallery/Gallery';
 import Socialmedia from './components/Socialmedia/Socialmedia';
+import Test4 from './components/TEST/Test4';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Projects />
         <Contacts />
         <Footer />
+        <Test4 />
       </Router>
     </div>
   );
