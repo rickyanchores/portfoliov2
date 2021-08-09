@@ -26,33 +26,33 @@ const Projects = (props) => {
         {
             name: 'City Pix',
             image: projectOne,
-            link: "https://www.instagram.com/p/CRrutXerUKNm85rxiUDHGpNPFJVvAKH18-JGx40/",
-            code:""
+            link: { pathname: "https://rickyanchores.github.io/CiTYPiX/" },
+            code: { pathname:"https://github.com/rickyanchores/CiTYPiX" }
         },
         {
             name: 'Zenkana',
             image: projectTwo,
-            link: "https://www.instagram.com/p/CRrutXerUKNm85rxiUDHGpNPFJVvAKH18-JGx40/",
-            code:""
+            link: { pathname: "https://rickyanchores.github.io/zenkana/" } ,
+            code: { pathname:"https://github.com/rickyanchores/zenkana" }
         },
         {
             name: 'Kahoii',
             image: projectThree,
-            link: "https://www.instagram.com/p/CRrutXerUKNm85rxiUDHGpNPFJVvAKH18-JGx40/",
-            code:""
+            link: { pathname: "https://rickyanchores.github.io/Kahoii/"},
+            code: { pathname:"https://github.com/rickyanchores/Kahoii" }
 
         },
         {
             name: 'rickolor',
             image: projectFour,
-            link: "https://www.instagram.com/p/CRrutXerUKNm85rxiUDHGpNPFJVvAKH18-JGx40/",
-            code:""
+            link: { pathname: "https://rickyanchores.github.io/rickolor/"},
+            code: { pathname:"https://github.com/rickyanchores/rickolor" }
         },
         {
             name: 'TODOapp',
             image: projectFive,
-            link: "https://www.instagram.com/p/CRrutXerUKNm85rxiUDHGpNPFJVvAKH18-JGx40/",
-            code:""
+            link: { pathname: "https://rickyanchores.github.io/todoApp/"},
+            code: { pathname:"https://github.com/rickyanchores/todoApp" }
         },
     ]
 
