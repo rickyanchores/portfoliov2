@@ -1,5 +1,5 @@
 import {React, useState} from 'react'
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 const Nav = () => {
@@ -31,18 +31,18 @@ const Nav = () => {
                 <div className="line"></div>
             </div>
             <ul className="navlinks">
-                <li>
-                    <NavLink to="">Home</NavLink>
-                </li>
-                <li>
-                    <NavLink to="">Projects</NavLink>
-                </li>
-                <li>
-                    <NavLink to="">About</NavLink>
-                </li>
-                <li>
-                    <NavLink to="">Contact</NavLink>
-                </li>
+                <Link to="/">  
+                    <li>Home</li>
+                </Link>
+                <Link to="/projects">  
+                    <li>Projects</li>
+                </Link>
+                <Link to="/about">  
+                    <li>About</li>
+                </Link>
+                <Link to="/contacts">  
+                    <li>Contact</li>
+                </Link>
             </ul>
         </div>
     )

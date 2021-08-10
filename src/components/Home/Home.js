@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import Projects from '../Projects/Projects';
 //import meSelf from '../../images/me-front-1.jpeg'
 
 
