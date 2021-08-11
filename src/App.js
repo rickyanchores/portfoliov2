@@ -35,6 +35,7 @@ function App() {
       <Projects />
       <Cards />
       <About />
+      <Gallery />
       <Footer />
     </div>
     </Router>
