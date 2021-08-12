@@ -21,7 +21,7 @@ const Home = () => {
                 <h3>Hi, name is Ricky Anchores</h3> 
                 <h5>Front End Developer</h5>
                 <p>Create and Develop modern and minimalist websites</p>
-                <Link to="" onClick={handleClick}>Check my projects</Link>
+                <Link to="/projects">Check my projects</Link>
             </div>
         </div>
     )
