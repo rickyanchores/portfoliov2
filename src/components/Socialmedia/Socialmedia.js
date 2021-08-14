@@ -15,6 +15,10 @@ const Socialmedia = (props) => {
         name: 'Github',
         img: ''
     }
+    let icon4 = {
+        name: 'Gmail',
+        img: ''
+    }
 
 
     return (
@@ -23,6 +27,7 @@ const Socialmedia = (props) => {
             <SocialmediaIcon name={icon1.name} icon={icon1.img} />
             <SocialmediaIcon name={icon2.name} icon={icon2.img} />
             <SocialmediaIcon name={icon3.name} icon={icon3.img} />
+            <SocialmediaIcon name={icon4.name} icon={icon4.img} />
         </div>
     )
 }
