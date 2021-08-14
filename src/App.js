@@ -33,7 +33,6 @@ function App() {
       <Home />
       <Socialmedia />
       <Projects />
-      <Cards />
       <About />
       <Gallery />
       <Footer />
