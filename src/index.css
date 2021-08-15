@@ -247,6 +247,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 1em;
 }
 
 .About .about-image {
@@ -378,8 +379,6 @@ button {
   padding: 1.5em 3em;
   background: black;
   color: whitesmoke;
-  -webkit-box-shadow: -8px 8px 0px 1px #333;
-          box-shadow: -8px 8px 0px 1px #333;
   border: none;
 }
 /*# sourceMappingURL=index.css.map */
