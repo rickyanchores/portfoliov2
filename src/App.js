@@ -12,11 +12,10 @@ import Projects from './components/Projects/Projects';
 import About from './components/About/About';
 import Contacts from './components/Contacts/Contacts';
 import Footer from './components/Footer/Footer';
-import Test from './components/TEST/Test';
-import Test2 from './components/TEST/Test2';
+
 import Gallery from './components/Gallery/Gallery';
 import Socialmedia from './components/Socialmedia/Socialmedia';
-import Test4 from './components/TEST/Test4';
+
 import Card from './components/Cards/Card';
 
 function App() {
@@ -31,10 +30,8 @@ function App() {
         <Route path="/contacts" component={Contacts} />
       </Switch>
       <Home />
-      <Socialmedia />
       <Projects />
       <About />
-      <Gallery />
       <Footer />
     </div>
     </Router>
