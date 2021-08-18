@@ -181,13 +181,12 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: 1em;
   }
   .Projects .title {
     width: 100%;
   }
   .Projects .Project {
-    margin: 1em;
+    margin-top: 1em;
   }
   .Projects .Project img {
     width: 400px;
@@ -233,13 +232,12 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: 1em;
   }
   .Projects .title {
     width: 100%;
   }
   .Projects .Project {
-    margin: 1em;
+    margin-top: 1em;
   }
   .Projects .Project img {
     width: 400px;
@@ -381,22 +379,6 @@ body {
 
 img {
   width: 100%;
-}
-
-.Test {
-  background: rebeccapurple;
-  color: whitesmoke;
-  margin: 1em;
-  padding: 1em;
-  border-radius: 20px;
-}
-
-.Test2 {
-  padding: 3em;
-  background: teal;
-  color: whitesmoke;
-  margin: 1em;
-  border-radius: 2em;
 }
 
 button {
