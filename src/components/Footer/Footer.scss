@@ -1,4 +1,5 @@
 .Footer{
+    width: 100%;
     background: black;
     color: whitesmoke;
     padding: 1em;
@@ -15,6 +16,18 @@
             color: whitesmoke;
             text-decoration: none;
             font-size: 1.5em;
+        }
+    }
+}
+
+@media(max-width: 896px){
+    .Footer{
+        flex-direction: column;
+        width: 100%;
+        .f-media{
+            .link{
+                font-size: 0.8em;
+            }
         }
     }
 }

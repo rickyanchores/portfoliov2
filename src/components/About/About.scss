@@ -15,9 +15,11 @@
 }
 
 
-@media(max-width: 700px){
+@media(max-width: 896px){
     .About{
         flex-direction: column;
-        
+        .about-image{
+            width: 100%;
+        }
     }
 }

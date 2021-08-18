@@ -37,12 +37,16 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin: 1em;
   }
   .Projects .title {
     width: 100%;
   }
   .Projects .Project {
     margin: 1em;
+  }
+  .Projects .Project img {
+    width: 400px;
   }
 }
 /*# sourceMappingURL=Projects.css.map */
