@@ -15,10 +15,10 @@
 }
 
 .About .about-text {
-  background: #333;
+  background: black;
   color: whitesmoke;
   padding: 5em;
-  margin: 1em;
+  margin: 0;
 }
 
 @media (max-width: 896px) {
@@ -27,6 +27,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin: 0;
   }
   .About .about-image {
     width: 100%;

@@ -175,7 +175,7 @@
   text-decoration: none;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 896px) {
   .Projects {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -226,7 +226,7 @@
   text-decoration: none;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 896px) {
   .Projects {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -261,10 +261,10 @@
 }
 
 .About .about-text {
-  background: #333;
+  background: black;
   color: whitesmoke;
   padding: 5em;
-  margin: 1em;
+  margin: 0;
 }
 
 @media (max-width: 896px) {
@@ -273,6 +273,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin: 0;
   }
   .About .about-image {
     width: 100%;
@@ -375,6 +376,7 @@
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
 }
 
 img {
