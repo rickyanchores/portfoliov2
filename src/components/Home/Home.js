@@ -21,7 +21,9 @@ const Home = () => {
                 <h3>Hi, name is Ricky Anchores</h3> 
                 <h5>Front End Developer</h5>
                 <p>Create and Develop modern and minimalist websites</p>
-                <button onClick={ handleClick }>LinkedIN</button>
+                <button>
+                    <Link to={{pathname:"https://www.linkedin.com/feed/"}} target="_blank">Linkedin</Link>
+                </button>
             </div>
         </div>
     )
