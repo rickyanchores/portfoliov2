@@ -43,6 +43,10 @@ const Nav = () => {
                 <Link to="/contacts">  
                     <li>Contact</li>
                 </Link>
+                <Link to="">  
+                    <li>Download CV</li>
+                </Link>
+              
             </ul>
         </div>
     )
