@@ -46,7 +46,6 @@ const Nav = () => {
                 <Link to="">  
                     <li>Download CV</li>
                 </Link>
-              
             </ul>
         </div>
     )
