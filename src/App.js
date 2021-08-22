@@ -17,19 +17,20 @@ import Gallery from './components/Gallery/Gallery';
 import Socialmedia from './components/Socialmedia/Socialmedia';
 
 import Card from './components/Cards/Card';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
     <div className="App">
       <Nav />  
       <Switch>
-        <Route path="/home" exact component={Home} />
+        <Route path="/" exact component={Home} />
         <Route path="/projects" component={Projects} />
         <Route path="/about" component={About} />
         <Route path="/contacts" component={Contacts} />
       </Switch>
-      <Home />
       <Projects />
       <About />
       <Footer />
