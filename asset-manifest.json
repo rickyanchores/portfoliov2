@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfoliov2/static/css/main.88f5a79f.chunk.css",
-    "main.js": "/portfoliov2/static/js/main.8a6ef24b.chunk.js",
-    "main.js.map": "/portfoliov2/static/js/main.8a6ef24b.chunk.js.map",
+    "main.js": "/portfoliov2/static/js/main.9a44597e.chunk.js",
+    "main.js.map": "/portfoliov2/static/js/main.9a44597e.chunk.js.map",
     "runtime-main.js": "/portfoliov2/static/js/runtime-main.10b11c49.js",
     "runtime-main.js.map": "/portfoliov2/static/js/runtime-main.10b11c49.js.map",
     "static/js/2.5c156be0.chunk.js": "/portfoliov2/static/js/2.5c156be0.chunk.js",
@@ -11,6 +11,7 @@
     "static/css/main.88f5a79f.chunk.css.map": "/portfoliov2/static/css/main.88f5a79f.chunk.css.map",
     "static/js/2.5c156be0.chunk.js.LICENSE.txt": "/portfoliov2/static/js/2.5c156be0.chunk.js.LICENSE.txt",
     "static/media/Citypx.da061d51.jpg": "/portfoliov2/static/media/Citypx.da061d51.jpg",
+    "static/media/Ricky.09dcfcc8.jpg": "/portfoliov2/static/media/Ricky.09dcfcc8.jpg",
     "static/media/kahoii.cd76379d.jpg": "/portfoliov2/static/media/kahoii.cd76379d.jpg",
     "static/media/me-back.ddf4cec7.jpg": "/portfoliov2/static/media/me-back.ddf4cec7.jpg",
     "static/media/rickolor.9c0cc949.jpg": "/portfoliov2/static/media/rickolor.9c0cc949.jpg",
@@ -21,6 +22,6 @@
     "static/js/runtime-main.10b11c49.js",
     "static/js/2.5c156be0.chunk.js",
     "static/css/main.88f5a79f.chunk.css",
-    "static/js/main.8a6ef24b.chunk.js"
+    "static/js/main.9a44597e.chunk.js"
   ]
 }
