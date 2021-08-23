@@ -1,6 +1,6 @@
 import {React, useState} from 'react'
-import { Link } from "react-router-dom";
-
+//import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link"
 
 const Nav = () => {
 
@@ -31,21 +31,21 @@ const Nav = () => {
                 <div className="line"></div>
             </div>
             <ul className="navlinks">
-                <Link to="/">  
-                    <li>Home</li>
-                </Link>
-                <Link to="/projects">  
-                    <li>Projects</li>
-                </Link>
-                <Link to="/about">  
-                    <li>About</li>
-                </Link>
-                <Link to="/contacts">  
-                    <li>Contact</li>
-                </Link>
-                <Link to="">  
-                    <li>Download CV</li>
-                </Link>
+                <li>
+                    <Link smooth to="#home">
+                        Home
+                    </Link>
+                </li>
+                <li>
+                    <Link smooth to="#projects">
+                        Projects
+                    </Link>
+                </li>
+                <li>
+                    <Link smooth to="#about">
+                        About
+                    </Link>
+                </li>
             </ul>
         </div>
     )
