@@ -22,7 +22,6 @@ import ScrollToTop from './components/ScrollToTop';
 function App() {
   return (
     <Router>
-      <ScrollToTop />
     <div className="App">
       <Nav />  
       <Switch>
@@ -31,7 +30,6 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/contacts" component={Contacts} />
       </Switch>
-      <Home />
       <Projects />
       <About />
       <Footer />
