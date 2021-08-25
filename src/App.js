@@ -17,7 +17,7 @@ import Gallery from './components/Gallery/Gallery';
 import Socialmedia from './components/Socialmedia/Socialmedia';
 
 import Card from './components/Cards/Card';
-import ScrollToTop from './components/ScrollToTop';
+import ScrollToTop from './components/utils/ScrollToTop';
 
 function App() {
   return (
