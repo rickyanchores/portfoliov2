@@ -18,6 +18,7 @@ import Socialmedia from './components/Socialmedia/Socialmedia';
 
 import Card from './components/Cards/Card';
 import ScrollToTop from './components/utils/ScrollToTop';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/contacts" component={Contacts} />
       </Switch>
+      <Home />
       <Projects />
       <About />
       <Footer />

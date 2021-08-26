@@ -12,7 +12,8 @@
         "components/Footer/Footer.scss",
         "components/Gallery/Gallery.scss",
         "components/Contacts/Contact.scss",
-        "components/Socialmedia/Socialmedia.scss"
+        "components/Socialmedia/Socialmedia.scss",
+        "components/utils/Button.scss"
     ],
     "names": [],
     "file": "index.css"
