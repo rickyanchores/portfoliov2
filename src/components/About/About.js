@@ -12,7 +12,7 @@ const About = () => {
                 <h1>About</h1>
                 <p>I'm Ricky, a Front End Developer based in London,UK
 Web Dev and Design. Well organised person, problem solver, independent employee with high attention to detail. Music and Art passionate</p>
-                <h3>Insert Here List of your Tech Stack:</h3>
+                <h3>SKILLS</h3>
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
