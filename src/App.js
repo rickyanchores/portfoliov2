@@ -34,6 +34,7 @@ function App() {
       <Home />
       <Projects />
       <About />
+      <Gallery />
       <Footer />
     </div>
     </Router>

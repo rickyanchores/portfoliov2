@@ -10,6 +10,10 @@
     align-items: center;
     padding: 1em;
     .hamburger{
+      width: 20px;
+      height: 3px;
+      margin: 3px;
+      background: whitesmoke;
       display: none;
       .line{
         width: 20px;
