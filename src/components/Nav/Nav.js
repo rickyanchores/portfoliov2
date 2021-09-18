@@ -16,36 +16,50 @@ const Nav = () => {
     const [logo,setLogo] = useState('Ricky A');
 
 
+    const navList = [
+        {
+            name: "Home",
+            href: "#"
+        },
+        {
+            name: "Projects",
+            href: "#projects"
+        },
+        {
+            name: "About",
+            href: "#about"
+        },
+    ]
+
     const handleClick = () => {
         //insert here event onClick
-        setLogo('RA');
+        console.log("Hey")
+        let navResponsive = document.querySelector('.Nav')
+
+        navResponsive.style.background = "red"
     }
+
+
 
 
     return (
         <div className="Nav">
-            <div className="logo" onClick={ handleClick }><h3>{ logo }</h3></div>
-            <div className="hamburger">
+            <div className="logo"><h3>{ logo }</h3></div>
+            <div className="hamburger" onClick={handleClick}>
                 <div className="line"></div>
                 <div className="line"></div>
                 <div className="line"></div>
             </div>
             <ul className="navlinks">
-                <li>
-                    <Link smooth to="#home">
-                        Home
-                    </Link>
-                </li>
-                <li>
-                    <Link smooth to="#projects">
-                        Projects
-                    </Link>
-                </li>
-                <li>
-                    <Link smooth to="#about">
-                        About
-                    </Link>
-                </li>
+                {
+                    navList.slice(0,3).map(link => {
+                        return(
+                            <li>
+                                <Link to={link.href} smooth>{link.name}</Link>
+                            </li>
+                        )
+                    })
+                }
             </ul>
         </div>
     )

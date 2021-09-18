@@ -30,8 +30,7 @@ function App() {
         <Route path="/projects" component={Projects} />
         <Route path="/about" component={About} />
         <Route path="/contacts" component={Contacts} />
-      </Switch>
-      <Home />
+      </Switch> 
       <Projects />
       <About />
       <Footer />
